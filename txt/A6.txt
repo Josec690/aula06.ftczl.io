@@ -1,0 +1,81 @@
+1° - Abrir o github.com
+- Criar repositório
+- Copia link p/ colar no Git
+
+
+2° - Criar uma pasta local e nomea-la
+
+
+3° - Abrir o Git e seguir procedimentos abaixo:
+
+
+dti@LAB202-30 MINGW64 ~
+$ git config --global user.name "Josec690"
+
+dti@LAB202-30 MINGW64 ~
+$ git config --global user.email jose.silva690@fatec.sp.gov.br
+
+dti@LAB202-30 MINGW64 ~
+$ ls
+
+'3D Objects'/
+'Ambiente de Impressão'@
+'Ambiente de Rede'@
+ AppData/
+'Application Data'/
+'Cisco Packet Tracer 8.1.1'/
+'Cisco Packet Tracer 8.2.1'/
+'Configurações Locais'@
+ Contacts/
+ Cookies@
+'Dados de Aplicativos'@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Menu Iniciar'@
+'Meus Documentos'@
+ Modelos@
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{d38c449d-ebbd-11eb-8359-641c67ce652b}.TM.blf
+ NTUSER.DAT{d38c449d-ebbd-11eb-8359-641c67ce652b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{d38c449d-ebbd-11eb-8359-641c67ce652b}.TMContainer00000000000000000002.regtrans-ms
+ OneDrive/
+ Pictures/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Videos/
+'VirtualBox VMs'/
+ eclipse/
+ eclipse-workspace/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ source/
+
+dti@LAB202-30 MINGW64 ~
+$ cd desktop
+
+dti@LAB202-30 MINGW64 ~/desktop
+$ cd aula06
+
+dti@LAB202-30 MINGW64 ~/desktop/aula06
+$ git clone https://github.com/Josec690/aula06_ftczl.git
+Cloning into 'aula06_ftczl'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+
+
+4° - Abrir o VS Code
+- Abrir pasta local
+- Habilitar o AutoSave
+- Criar o index.html
+- Criar commit e sempre dar commit no final ou quando achar melhor para atualizar pasta e repositório.
+
